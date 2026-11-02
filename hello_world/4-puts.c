@@ -1,8 +1,11 @@
 #include<stdio.h>
 /**
- * Creates output of desired string
+ * main - entry point
+ *
+ * Description - Prints a string using puts function.
+ * Return: 0 - Successful exectution.
  */
-int main(void) /*Main program*/
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
