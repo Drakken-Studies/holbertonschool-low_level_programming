@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * Main: Entry point
+ * main - Entry point
  *
  * Description - detects whether random number (n) is
  * positive, negative or zero.
