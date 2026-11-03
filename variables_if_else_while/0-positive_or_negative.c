@@ -1,27 +1,30 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
 /*
- * main: - Entry point
+ * Main: Entry point
  *
- * Description - given a random number (n), the program will print if the
- * number assiged to n is positive, negative or is zero.
+ * Description - detects whether random number (n) is
+ * positive, negative or zero.
  *
- * Return = 0 - Successful execution.
+ * Return: 0 - successful execution.
  */
 int main(void)
 {
-if (n == 0)
-{
-	printf("is zero\n");
-}
-else if (n > 0)
-{
-	printf("is positive\n");
-}
-else if (n < 0)
-{
-	printf("is negative\n");
-}
-else
-{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n == 0)
+	{
+		printf("is zero\n");
+	}
+	else if (n > 0)
+	{
+		printf("is positive\n");
+	}
+	else
+	{
+		printf("is negative\n");
 	return (0);
 }
