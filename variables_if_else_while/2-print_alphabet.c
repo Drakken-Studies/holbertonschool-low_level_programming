@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description - loop until entire alphabet prints on one line.
  *
@@ -12,8 +12,9 @@ int main(void)
 	char i = 'a';
 	while (i <= 'z')
 	{
-		putchar("%s", i);
-		i ++
+		putchar(i);
+		i ++;
+		putchat('\n');
 	}
 	return (0);
 }
