@@ -28,4 +28,9 @@ void print_to_98(int n)
 		}
 	_putchar('\n');
 	}
+	else
+	{
+		_putchar(i);
+		_putchar('\n');
+	}
 }
