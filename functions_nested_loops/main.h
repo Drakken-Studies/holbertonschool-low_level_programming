@@ -11,6 +11,7 @@
  * _abs
  * print_last_digit
  * jack_bauer
+ * times_table
  */
 
 int _putchar(char c);
@@ -22,4 +23,5 @@ int print_sign(int n);
 int _abs(int);
 int print_last_digit(int);
 void jack_bauer(void);
+void times_table(void);
 #endif
