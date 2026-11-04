@@ -3,14 +3,13 @@
 
 /**
  * _putchar - custom function for putchar
+ * print_alphabet
+ * print_alphabet_x10
  */
 
 int _putchar(char c);
-
-/**
- * print_alphabet - custom function to print entire alphabet on a single line
- */
-
 void print_alphabet(void);
+void print_alphabet_x10(void);
+
 
 #endif
