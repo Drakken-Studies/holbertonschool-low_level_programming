@@ -10,10 +10,22 @@ void print_to_98(int n)
 
 	i = n;
 
-	while (i <= (n + 98))
+	if (i < 98)
 	{
-		printf("%d, ", i);
-		i++;
-	}
+		while (i < 98)
+		{
+			printf("%d, ", i);
+			i++;
+		}
 	_putchar('\n');
+	}
+	else if (i > 98)
+	{
+		while (i > 98)
+		{
+			Printf("%d, ", i);
+			i--;
+		}
+	_putchar('\n');
+	}
 }
