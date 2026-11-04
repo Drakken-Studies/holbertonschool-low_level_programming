@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_to_98 - prints all integers between a give number and 98 above it
+ * print_to_98 - prints all integers between a given number and 98 above it
  * @n: Number to be checked.
  */
 void print_to_98(int n)
@@ -28,7 +28,7 @@ void print_to_98(int n)
 			}
 			i++;
 		}
-	_putchar('\n');
+		printf("\n");
 	}
 	else if (i >= 98)
 	{
@@ -44,6 +44,6 @@ void print_to_98(int n)
 			}
 			i--;
 		}
-	_putchar('\n');
+		printf("\n");
 	}
 }
