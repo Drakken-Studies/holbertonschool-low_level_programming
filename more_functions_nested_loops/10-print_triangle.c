@@ -30,7 +30,7 @@ void print_triangle(int size)
 			while (s < row + 1)
 			{
 				_putchar('#');
-				s++
+				s++;
 			}
 			_putchar('\n');
 			row++;
