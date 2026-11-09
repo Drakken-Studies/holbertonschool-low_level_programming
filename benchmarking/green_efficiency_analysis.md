@@ -1,4 +1,4 @@
-Benchmarking Report
+Green Efficiency Analysis - ADAM DAVIES
 
 Measurement Methodology
 
@@ -8,11 +8,13 @@ For the instrumentation lab, I used clock() to record the processor time before 
 I recorded the results from each program so I could compare them and see what was happening.
 
 Observed Performance Differences
-The baseline loop completed 100 million iterations in and average of 0.069868 seconds, I was suprised, how quickly it completed that many iterations.
-The biggest difference was in the algorithm comparison. The naive algorithm took 0.930994 seconds, while the single-pass algorithm took just 0.000030 seconds. Thats approximatelyy 32,000 times longer on average. It aslo uses nested loops, which means it repeatedly checks the same data, while the single-pass algorithm only checks each value once. This explains the big difference in average execution times, with the naive algorithm taking 0.938681 seconds compared to just 0.000029 seconds for the single-pass approach.
+1- The baseline loop completed 100 million iterations in and average of 0.069868 seconds, I was suprised, how quickly it completed that many iterations.
+
+2 -The biggest difference was in the algorithm comparison. The naive algorithm took 0.930994 seconds, while the single-pass algorithm took just 0.000030 seconds. Thats approximatelyy 32,000 times longer on average. It aslo uses nested loops, which means it repeatedly checks the same data, while the single-pass algorithm only checks each value once. This explains the big difference in average execution times, with the naive algorithm taking 0.938681 seconds compared to just 0.000029 seconds for the single-pass approach.
 That's a massive difference, with the naive algorithm taking considerably longer based on these results.
 I did notice that the algorithms produced different outputs. The naive algorithm returned 625025000, while the single-pass algorithm returned 25000.
-For the instrumentation lab, the total execution time was 0.000361 seconds.
+
+3 -For the instrumentation lab, the total execution time was 0.000361 seconds.
 Building the dataset took 0.000136 seconds, processing took 0.000182 seconds, and calculating the checksum took 0.000043 seconds. Checksum calculation appeared to be the quickest task, must be good at math!
 
 Relation Between Runtime and Energy Consumption:
