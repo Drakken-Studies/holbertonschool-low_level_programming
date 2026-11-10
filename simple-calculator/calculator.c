@@ -5,6 +5,12 @@
 
 /**
  * main - entry point
+ * 
+ * @choice: variable that holds the user input for menu selection.
+ * @a: first number input for equation.
+ * @b: second number input for equation.
+ * @sum: output for equation.
+ *
  * Return: 0 for success
  */
 
@@ -38,7 +44,7 @@ int main(void)
 				printf("\n\n**ADDITION**\n");
 				printf("Please enter 2 numbers to ADD together, ");
 				printf("separated by a comma (eg. \"3,4\"): ");
-				if (scanf("%d,%d", &a, &b) != 2)
+				if (scanf("%d,%d", &a, &b) == 2)
 				{
 					sum = (a + b);
 					printf("\n\nAnswer = %d\n\n", sum);
