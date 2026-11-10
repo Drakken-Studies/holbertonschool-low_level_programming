@@ -4,15 +4,15 @@
  * _strlen - function that returns the length of a string.
  *
  * @s: String to count.
- * @i: Counter for string array.
  *
  * Return: i - returns counter value.
  *
  */
 int _strlen(char *s)
 {
-	int i = 0;
+	int i;
 
+	i = 0;
 	while (s[i] != '\0')
 	{
 		i++;
