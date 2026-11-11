@@ -25,16 +25,18 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 	/* Checks if we've reached added byte limit */
-	while (s < n)
+	if (src[s] != '\0')
 	{
-		while (src[s] != '\0)
+		while (s < n)
 		{
-			dest[i] = src[s];
-			break;
+			while (src[s] != '\0')
+			{
+				dest[i] = src[s];
+				break;
+			}
+			s++;
+			i++;
 		}
-		s++;
-		i++;
-	}
 	}
 	dest[i] = '\0';
 	return (dest);
