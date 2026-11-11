@@ -30,6 +30,8 @@
  * _strcat - function appends the src string to the dest string,
  *	overwriting the terminating null byte (\0) at the end of dest,
  *	and then adds a terminating null byte.
+ *
+ * _strncat - function that concatenates two strings. 
  */
 
 int _putchar(char c);
@@ -45,5 +47,6 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 char *_strcat(char *dest, char *src);
+char *_strncatchar *dest, char *src, int n);
 
 #endif
