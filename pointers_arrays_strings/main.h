@@ -11,6 +11,8 @@
  * _puts - function that prints a string, followed by a new line, to stdout.
  *
  * print_rev - function that prints a string, in reverse, followed by a new line.
+ *
+ * rev_string - function that reverses a string.
  */
 
 int _putchar(char c);
@@ -19,5 +21,6 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
+void rev_string(char *s);
 
 #endif
