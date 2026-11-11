@@ -3,16 +3,13 @@
 /**
  * rev_string - function that reverses a string.
  *
- * @a: counter for string len, also array index.
- * @b: counter for array index for 'c'.
- * @c: reversed string array.
+ * @s: Pointer to string.
+ *
  */
 void rev_string(char *s)
 {
 	int a;
 	int b;
-	char c;
-	char d;
 	char temp;
 
 	a = 0;
@@ -24,17 +21,12 @@ void rev_string(char *s)
 	}
 	a--;
 
-	c = s[a];
-	d = s[b];
-	while (a != b)
+
+	while (a > b)
 	{
-		c = s[a];
-		d = s[b];
-		temp = c;
-		c = d;
-		d = temp;
-		s[a] = c;
-		s[b] = d;
+		temp = s[a];
+		s[a] = s[b];
+		s[b] = temp;
 		a--;
 		b++;
 	}
