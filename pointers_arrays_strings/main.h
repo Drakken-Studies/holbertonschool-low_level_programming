@@ -21,6 +21,9 @@
  *
  * print_arry - function that prints n elements of an array of integers,
  *	followed by a new line.
+ *
+ * _strcpy - function that copies the string pointed to by src, including
+ *	the terminating null byte (\0), to the buffer pointed to by dest.
  */
 
 int _putchar(char c);
@@ -33,5 +36,6 @@ void rev_string(char *s);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
 
 #endif
