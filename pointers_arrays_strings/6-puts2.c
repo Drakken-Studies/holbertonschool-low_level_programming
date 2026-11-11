@@ -10,14 +10,13 @@
 void puts2(char *str)
 {
 	int i;
+	int n;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
 		i++;
 	}
-	
-	int n;
 
 	n = i;
 	i = 0;
