@@ -24,6 +24,8 @@
  *
  * _strcpy - function that copies the string pointed to by src, including
  *	the terminating null byte (\0), to the buffer pointed to by dest.
+ *
+ * _atoi - function that convert a string to an integer.
  */
 
 int _putchar(char c);
@@ -37,5 +39,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 
 #endif
