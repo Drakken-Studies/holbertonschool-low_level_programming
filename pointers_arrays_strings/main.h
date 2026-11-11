@@ -4,7 +4,7 @@
  * _putchar - custom function for putchar
  *
  * reset_to_98 - function that takes a pointer to an int as parameter and
- * updates the value it points to to 98.
+ * 	updates the value it points to to 98.
  *
  * swap_int - function that swaps the values of two integers
  *
@@ -13,6 +13,9 @@
  * print_rev - function that prints a string, in reverse, followed by a new line.
  *
  * rev_string - function that reverses a string.
+ *
+ * puts2 - function that prints every other character of a string, 
+ * 	starting with the first character, followed by a new line.
  */
 
 int _putchar(char c);
@@ -22,5 +25,6 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
+void puts2(char *str);
 
 #endif
