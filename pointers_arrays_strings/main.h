@@ -41,6 +41,8 @@
  *
  * string_toupper - function that changes all lowercase letters of a string to
  * 	uppercase.
+ *
+ * cap_string - function that capitalizes all words of a string.
  */
 
 int _putchar(char c);
@@ -61,5 +63,6 @@ char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
+char *cap_string(char *);
 
 #endif
