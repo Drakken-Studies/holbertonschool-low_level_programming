@@ -47,6 +47,8 @@
  * leet - function that encodes a string into 1337.
  *
  * _memset - function that fills memory with a constant byte.
+ *
+ * _memcpy - function that copies memory area.
  */
 
 int _putchar(char c);
@@ -70,5 +72,6 @@ char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
 char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 
 #endif
