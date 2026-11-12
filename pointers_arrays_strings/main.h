@@ -38,6 +38,9 @@
  * _strcmp - function that compares two strings.
  *
  * reverse_array - function that reverses the content of an array of integers.
+ *
+ * string_toupper - function that changes all lowercase letters of a string to
+ * 	uppercase.
  */
 
 int _putchar(char c);
@@ -57,5 +60,6 @@ char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
+char *string_toupper(char *);
 
 #endif
