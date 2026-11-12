@@ -43,6 +43,8 @@
  * 	uppercase.
  *
  * cap_string - function that capitalizes all words of a string.
+ *
+ * leet - function that encodes a string into 1337.
  */
 
 int _putchar(char c);
@@ -64,5 +66,6 @@ int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
+char *leet(char *);
 
 #endif

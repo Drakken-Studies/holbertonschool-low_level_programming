@@ -13,12 +13,14 @@ char *cap_string(char *s)
 	i = 0;
 	while (s[i] != '\0')
 	{
+	/* Checks if current index contains lower case letters */
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
 			if (i == 0)
 			{
 				s[i] = (s[i] - 32);
 			}
+	/* Checks if the character before is a separator */
 			else if (s[i - 1] == ' ' ||
 				s[i - 1] == ',' ||
 				s[i - 1] == ';' ||
@@ -34,6 +36,7 @@ char *cap_string(char *s)
 				s[i - 1] == '\n'
 				)
 			{
+	/* Converts to upper case */
 				s[i] = (s[i] - 32);
 			}
 		}
