@@ -3,11 +3,11 @@
 /**
  * _memset - function that fills memory with a constant byte.
  *
- * @s:
- * @b:
- * @n:
+ * @s: Arry provided
+ * @b: Replace with this
+ * @n: Number of bytes to replace
  *
- * Return:
+ * Return: New value of original 's'
  */
 char *_memset(char *s, char b, unsigned int n)
 {
