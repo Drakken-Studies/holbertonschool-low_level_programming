@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * string_toupper - converts a string to all uppercase.
+ * cap_string - function that capitalizes all words of a string.
  *
  * @s: supplied array.
  *
- * Return: returns converted string.
+ * Return: returns capitalised string.
  */
 char *cap_string(char *s)
 {
@@ -33,7 +33,7 @@ char *cap_string(char *s)
 				s[i - 1] == '\t' ||
 				s[i - 1] == '\n'
 				)
-			{	
+			{
 				s[i] = (s[i] - 32);
 			}
 		}
