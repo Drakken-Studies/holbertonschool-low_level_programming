@@ -45,6 +45,8 @@
  * cap_string - function that capitalizes all words of a string.
  *
  * leet - function that encodes a string into 1337.
+ *
+ * _memset - function that fills memory with a constant byte.
  */
 
 int _putchar(char c);
@@ -67,5 +69,6 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *);
 char *cap_string(char *);
 char *leet(char *);
+char *_memset(char *s, char b, unsigned int n);
 
 #endif
