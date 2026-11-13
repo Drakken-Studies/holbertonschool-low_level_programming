@@ -58,6 +58,8 @@
  * _strpbrk - function that searches a string for any of a set of bytes.
  *
  * _strstr - function that locates a substring.
+ *
+ * print_chessboard - function that prints the chessboard.
  */
 
 int _putchar(char c);
@@ -86,5 +88,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+void print_chessboard(char (*a)[8]);
 
 #endif
