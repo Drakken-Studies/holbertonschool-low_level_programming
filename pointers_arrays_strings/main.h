@@ -54,6 +54,10 @@
  * _strchr - function that locates a character in a string.
  *
  * _strspon - function that gets the length of a prefix substring.
+ *
+ * _strpbrk - function that searches a string for any of a set of bytes.
+ *
+ * _strstr - function that locates a substring.
  */
 
 int _putchar(char c);
@@ -80,5 +84,7 @@ char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
+char *_strpbrk(char *s, char *accept);
+char *_strstr(char *haystack, char *needle);
 
 #endif
