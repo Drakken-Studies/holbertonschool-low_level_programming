@@ -60,6 +60,9 @@
  * _strstr - function that locates a substring.
  *
  * print_chessboard - function that prints the chessboard.
+ *
+ * print_diagsums - function that prints the sum of the two diagonals of
+ * 	a square matrix of integers.
  */
 
 int _putchar(char c);
@@ -89,5 +92,6 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
+void print_diagsums(int *a, int size);
 
 #endif
