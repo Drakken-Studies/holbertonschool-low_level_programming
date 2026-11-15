@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <ctype.h>
 
 /**
- * main - entry point
+ * main - entry point for program.
  * 
  * @choice: variable that holds the user input for menu selection.
  * @a: first number input for equation.
@@ -107,6 +104,9 @@ int main(void)
 				int b;
 				int sum;
 
+				a = -1;
+				b = -1;
+				sum = 0;
 				printf("\n\n**DIVISION**\n");
 				printf("Please enter 2 numbers, one DIVIDED by");
 				printf("the other, separated by a comma (example \"3,4\"): ");
