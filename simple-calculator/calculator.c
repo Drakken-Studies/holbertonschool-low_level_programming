@@ -5,7 +5,7 @@
 
 /**
  * main - entry point
- * 
+ *
  * @choice: variable that holds the user input for menu selection.
  * @a: first number input for equation.
  * @b: second number input for equation.
@@ -127,15 +127,19 @@ int main(void)
 					printf("\n\nInvalid number\n\n");
 					while (getchar() != '\n')
 					{
-					}	
+					}
 				}
 			}
 			else if (choice == 0)
 			{
 				printf("\n\nBye!\n\n");
-				while (getchar() != '\n');
+				while (getchar() != '\n')
+				{
+				}
 			}
 	}
-	while (choice != 0);
-	return (0);
+	while (choice != 0)
+	{
+		return (0);
+	}
 }
