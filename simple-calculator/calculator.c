@@ -2,7 +2,7 @@
 
 /**
  * main - entry point for program.
- * 
+ *
  * @choice: variable that holds the user input for menu selection.
  * @a: first number input for equation.
  * @b: second number input for equation.
@@ -110,23 +110,23 @@ int main(void)
 				printf("\n\n**DIVISION**\n");
 				printf("Please enter 2 numbers, one DIVIDED by");
 				printf("the other, separated by a comma (example \"3,4\"): ");
-				if (b == 0)
+				if (scanf("%d,%d", &a, &b) == 2)
 				{
-					printf("\n\nError: division by zero\n\n");
-				}
-				else
-				{
-					if (scanf("%d,%d", &a, &b) == 2)
+					if (b == 0)
+					{
+						printf("\n\nError: division by zero\n\n");
+					}
+					else
 					{
 						sum = (a / b);
 						printf("\n\nAnswer = %d\n\n", sum);
 					}
-					else
+				}
+				else
+				{
+					printf("\n\nInvalid number\n\n");
+					while (getchar() != '\n')
 					{
-						printf("\n\nInvalid number\n\n");
-						while (getchar() != '\n')
-						{
-						}
 					}
 				}
 			}
@@ -138,6 +138,8 @@ int main(void)
 				}
 			}
 	}
-	while (choice != 0);
-	return (0);
+	while (choice != 0)
+	{
+		return (0);
+	}
 }
