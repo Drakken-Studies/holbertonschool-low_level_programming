@@ -11,11 +11,15 @@
  * 	space in memory, which contains a copy of the string given as a parameter.
  *
  * str_concat - function that concatenates two strings.
+ *
+ * alloc_grid - function that returns a pointer to a 2 dimensional
+ *	array of integers.
  */
 
 int _putchar(char c);
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
+int **alloc_grid(int width, int height);
 
 #endif
