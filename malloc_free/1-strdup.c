@@ -19,18 +19,18 @@ char *_strdup(char *str)
 
 	i = 0;
 	a = 0;
+	/* Checks if provided string pointer is valid */
+	if (str == NULL)
+	{
+		return (NULL);
+	}
 	/*Checks required size for array */
 	while (i != '\n')
 	{
 		i++;
 	}
-	/* Checks if size is 0 */
-	if (i == 0)
-	{
-		return (NULL);
-	}
-	/* Create array with size of i */
-	c = malloc(i);
+	/* Create array with size of i + 1 for the newline break */
+	c = malloc(i + 1);
 	/* Check if allocation failed */
 	if (c == NULL)
 	{
@@ -39,7 +39,7 @@ char *_strdup(char *str)
 	/* Copy string to new array */
 	while (a < i)
 	{
-		c[i] = str[i];
+		c[a] = str[a];
 		a++;
 	}
 	return (c);
