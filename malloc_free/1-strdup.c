@@ -2,8 +2,14 @@
 #include <stdlib.h>
 
 /**
+ * _strdup - function that returns a pointer to a newly allocated
+ *	space in memory, which contains a copy of the string given
+ *	as a parameter.
  *
+ * @str: Provided string to copy.
  *
+ * Return: If allowcation fails or array size = 0 returns NULL, else
+ *	returns copied string (c).
  */
 char *_strdup(char *str)
 {
@@ -24,7 +30,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/* Create array with size of i */
-	c = malloc(i);
+	c = malloc(i + '1');
 	/* Check if allocation failed */
 	if (c == NULL)
 	{
