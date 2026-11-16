@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	i = 0;
 	a = 0;
 	/*Checks required size for array */
-	while (i != '\0')
+	while (i != '\n')
 	{
 		i++;
 	}
@@ -30,7 +30,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/* Create array with size of i */
-	c = malloc(i + '1');
+	c = malloc(i);
 	/* Check if allocation failed */
 	if (c == NULL)
 	{
