@@ -25,7 +25,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/*Checks required size for array */
-	while (i != '\n')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
@@ -37,7 +37,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	/* Copy string to new array */
-	while (a < i)
+	while (a <= i)
 	{
 		c[a] = str[a];
 		a++;
