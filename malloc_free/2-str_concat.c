@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
  * _strlen - function that returns length of string.
  *
@@ -9,7 +8,6 @@
  * Return: Length of string.
  *
  */
-
 int _strlen(char *str)
 {
 	int i;
@@ -25,12 +23,10 @@ int _strlen(char *str)
  * str_concat - function to concatenate two strings.
  *
  * @s1: first string to concatenate.
- * @s2: second strgin to concatenate.
+ * @s2: second string to concatenate.
  *
  * Return: NULL on failure, else return "c".
  */
-
-
 char *str_concat(char *s1, char *s2)
 {
 	char *c;
@@ -49,6 +45,7 @@ char *str_concat(char *s1, char *s2)
 	a = _strlen(s1);
 	b = _strlen(s2);
 	c = malloc(a + b  + 1);
+	d = 0;
 	if (c == NULL)
 	{
 		return (NULL);
