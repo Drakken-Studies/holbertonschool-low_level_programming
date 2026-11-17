@@ -20,6 +20,8 @@
  * malloc_checked - function that allocates memory using malloc.
  *
  * string_nconcat - a function that concatenates two strings.
+ *
+ * _calloc - function that allocates memory for an array, using malloc.
  */
 
 int _putchar(char c);
@@ -29,7 +31,10 @@ char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
+void *_calloc(unsigned int nmemb, unsigned int size);
 
 #endif
