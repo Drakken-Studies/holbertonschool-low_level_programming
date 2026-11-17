@@ -1,0 +1,22 @@
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled executables
+*.exe
+*.out
+a.out
+a.exe
+
+# Libraries
+*.so
+*.a
+
+# Debugging files
+core
+core.*
+
+# Build directories
+build/
+
