@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	if (nmemb > (UNIT_MAX / size))
+	if (nmemb > (UINT_MAX / size))
 	{
 		return (NULL);
 	}
