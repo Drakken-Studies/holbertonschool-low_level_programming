@@ -3,8 +3,8 @@
 /**
  * free_grid - function that frees a 2 dimensional grid.
  *
- * @grid - grid to free.
- * @height - number of rows.
+ * @grid: grid to free.
+ * @height: number of rows.
  */
 void free_grid(int **grid, int height)
 {
@@ -15,7 +15,7 @@ void free_grid(int **grid, int height)
 	{
 		return;
 	}
-	while (i < height);
+	while (i < height)
 	{
 		free(grid[i]);
 		i++;
