@@ -10,6 +10,8 @@
  *
  * init_dog - function that initialize a variable of type struct dog
  *
+ * print_dog - function that prints a struct dog.
+ *
  */
 struct dog
 {
@@ -19,5 +21,6 @@ struct dog
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 
 #endif

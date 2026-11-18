@@ -1,0 +1,14 @@
+#include "dog.h"
+#include <stdlib.h>
+
+/**
+ * print_dog - function to print struct dog and its elements.
+ *
+ * @d: pointer to struct dog.
+ *
+ */
+
+void print_dog(struct dog *d)
+{
+	printf("Name: %s\nAge: %f\nOwner: %s", dog->name, dog->age, dog->owner);
+}
