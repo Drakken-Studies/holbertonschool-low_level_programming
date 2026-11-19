@@ -14,6 +14,8 @@
  *
  * new_dog - function that creates a new dog.
  *
+ * free_dog - function that frees dog.
+ *
  */
 typedef struct dog
 {
@@ -25,5 +27,6 @@ typedef struct dog
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 #endif
