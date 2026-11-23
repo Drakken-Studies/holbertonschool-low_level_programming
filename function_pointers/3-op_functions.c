@@ -1,0 +1,73 @@
+#include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+/**
+ * op_add - returns the sum of a and b.
+ *
+ * @a: first provided integer
+ * @b: second provided integer
+ *
+ * Return: value of a and b depending on operator.
+ */
+
+int op_add(int a, int b)
+{
+	return (a + b);
+}
+
+/**
+ * op_sub - returns the sum of a and b.
+ *
+ * @a: first provided integer
+ * @b: second provided integer
+ *
+ * Return: value of a and b depending on operator.
+ */
+
+int op_sub(int a, int b)
+{
+	return (a - b);
+}
+
+/**
+ * op_mul - returns the sum of a and b.
+ *
+ * @a: first provided integer
+ * @b: second provided integer
+ *
+ * Return: value of a and b depending on operator.
+ */
+
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
+
+/**
+ * op_dev - returns the sum of a and b.
+ *
+ * @a: first provided integer
+ * @b: second provided integer
+ *
+ * Return: value of a and b depending on operator.
+ */
+
+int op_dev(int a, int b)
+{
+	return (a / b);
+}
+
+/**
+ * op_mod - returns the sum of a and b.
+ *
+ * @a: first provided integer
+ * @b: second provided integer
+ *
+ * Return: value of a and b depending on operator.
+ */
+
+int op_mod(int a, int b)
+{
+	return (a % b);
+}
