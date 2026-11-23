@@ -45,7 +45,7 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_dev - returns the sum of a and b.
+ * op_div - returns the sum of a and b.
  *
  * @a: first provided integer
  * @b: second provided integer
@@ -53,7 +53,7 @@ int op_mul(int a, int b)
  * Return: value of a and b depending on operator.
  */
 
-int op_dev(int a, int b)
+int op_div(int a, int b)
 {
 	return (a / b);
 }
