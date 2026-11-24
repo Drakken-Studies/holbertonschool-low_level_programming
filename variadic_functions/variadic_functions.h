@@ -5,14 +5,18 @@
  * _putchar - writes the character c to stdout.
  *
  * @c: number of args to pass.
+ *
+ * Return: 0 on success.
  */
 
 int _putchar(char c);
 
 /**
- * a function that returns the sum of all its parameters.
+ * sum_them_all - function that returns the sum of all its parameters.
  *
  * @n: number of args to be passed.
+ *
+ * Return: sum of passed ints.
  */
 
 int sum_them_all(const unsigned int n, ...);
